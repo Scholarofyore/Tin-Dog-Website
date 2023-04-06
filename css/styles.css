@@ -1,0 +1,197 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.pricing-text, .feature-text, #footer p, .card-title {
+    font-weight: bold;
+}
+.title, .container-fluid, #testimonials, #press, #cta {
+    background-color: #ff4c68;
+    color: white;
+} 
+
+/* Title Section */
+.big-heading {
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-content {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 10%;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+li {
+    margin: auto 20px;
+    font-size: 1.5rem;
+}
+.btn {
+    font-weight: 500;
+    margin: 5% 0;
+    position: relative;
+    transition: position 1s linear ;
+}
+
+.nav-link {
+    opacity: .5;
+}
+
+.dogphoto {
+    width: 22%;
+    transform: rotate(25deg); 
+    margin-top: 60px;
+    position: absolute;
+    right: 25%;
+}
+
+/* Feartures Section */
+#features {
+    padding: 9% 10%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    padding-top: 4%;
+}
+
+#features p {
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials .big-heading {
+    padding-top: 0;
+}
+
+.testimonial-image {
+    margin: 20px;
+    border-radius: 100%;
+    width: 10%;
+}
+.carousel-item {
+    padding: 10% 15%;
+}
+
+/* Press */
+
+#press {
+    padding-bottom: 3%;
+}
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Card Section */
+
+.card {
+    padding: 0;
+    box-shadow: 0 0 8px silver;
+    transition: transform 0.3s linear,
+                box-shadow 0s linear;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px silver;
+}
+
+.reduce {
+    margin-top: 16.1%;
+}
+
+.card-title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.pricing-text {
+    font-size: 1.8rem;
+    padding-top: 4%;
+}
+
+#pricing {
+    padding: 5% 5%;
+}
+
+.pricing-column {
+    margin: 3% 0;
+    padding: 0 2%;
+}
+
+#cta {
+    padding: 80px 212px;
+}
+
+.cta-button {
+    font-size: 1.5rem;
+    margin: 60px auto;
+    padding: 8px 1.5rem;
+}
+
+.btn-light, .space {
+    margin-left: 25px;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+}
+.footer-icons {
+    margin-bottom: 20px;
+}
+#footer p {
+    color: rgb(155, 152, 152);
+    font-size: 1.3rem;
+}
+.ficon {
+    margin: auto 10px;
+}
+
+.btn:active {
+    position: relative;
+    top: 3px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 998px) {
+    .dogphoto {
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+    }
+
+    .title-content {
+
+        text-align: center;
+
+    }
+    .cta-button {
+        margin: 20px 0 10px;
+    }
+}
